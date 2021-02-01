@@ -17,7 +17,7 @@ class Persona:
 
 
 class Studente(Persona):
-    matricola = ""
+
     def __init__(self, nome, cognome, sesso, data_nascita, matricola):
         super().__init__(nome, cognome, sesso, data_nascita)
         self.matricola = matricola
